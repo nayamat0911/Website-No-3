@@ -1,0 +1,91 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-size: 16px;
+	font-family: arial, sans-serif, lato;
+	font-weight:400;
+	line-height: 1.8em;
+	color: #666;
+}
+.manu{ float: right; }
+.manu ul{ margin: 0px; padding-top: 50px; margin-right:50px;}
+.manu ul li{ list-style-type: none; color: #fff;  background:#004d1a; 
+ display: inline; margin: 0px; padding: 10px 20px; border: .5px solid #000; 
+}
+.manu ul li:hover{background:#00cc44;}
+
+.online-order{ padding: 20px; }
+.order{ width:220px; font-size: 20px; font-weight: bold; padding: 10px 15px; float: right; 
+	margin-right:6%; opacity: 0.8; border: 0.2px solid #801a00 ; border-radius: 15px; box-sizing: border-box;
+ 	background:#003311; color:#ff3300;
+}
+.order:hover{background:#a3a375;}
+.pimg1{
+	background-image: url(img1.jpg);
+	min-height: 100%;
+}
+.pimg2{
+	background-image: url(img2.jpg);
+	min-height: 300px;
+}
+.pimg3{
+	background-image: url(img3.jpg);
+	min-height: 300px;
+}
+.pimg4{
+	background-image: url(img7.jpg);
+	min-height: 350px;
+}
+.pimg1, .pimg2, .pimg3, .pimg4{
+	position: relative;
+	background-position: center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light{
+	background: #0a2929;
+	color: #9999ff;
+}
+.section-glroy{
+	background:#1a0000;
+	color: #66ff66;
+}
+.section-dark{
+	background: #001a00;
+	color: #fff;
+}
+.ptext{position:absolute;top:50%; left:35%; border: 0.5px solid #000;
+	padding: 10px 30px; background:	 #ff8080; opacity: 0.3; color: #000;
+	font-size: 25px; font-weight: bold;
+ }
+ .button{ font-size: 30px; color: #000;  padding: 15px 25px; }
+
+ .btn1{position:absolute;top:60%; left:45%; 
+	padding: 8px 20px; background:	 #fff080; opacity: 0.4; color: #000;
+	font-size: 25px; font-weight: bold;}
+
+.btn2{position:absolute;top:60%; left:54%; 
+	padding: 7px 17px; background:	 #fff080; opacity: 0.4; color: #000;
+	font-size: 25px; font-weight: bold;}
+.btn1:hover{
+	background: #000;
+	color: red;
+}
+.btn2:hover{
+	background: #000;
+	color: red;
+}
+.footer { height: 150px; width: 100%;  box-sizing: border-box; 
+	background:  #1a0000; color:#fff; margin: 0px; padding: 0px;}
+/*.footer h3{ margin: 0px; padding-top: 20px; margin-bottom:0px; text-align: center; font-size: 20px; }*/
+.footer p{ text-align: center;  margin: 0px; padding-top: 15px;}
+.footer ol{ display: inline-flex;}
+.footer ol li{ list-style-type: none;  font-size: 30px; padding: 0px 15px; }
+.footer, .fa{ text-align: center; padding-top:0px;  }
+
